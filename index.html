@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Designed to exist | Freelance website &amp; portfolio design</title>
+<meta name="description" content="Freelance website and portfolio design. DM @designed_toexist on Instagram for details.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0c0f12">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Designed to exist">
+<meta property="og:description" content="Websites and portfolios that give your work a place to live. DM for details.">
+<meta property="og:image" content="og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="frames/f_001.webp" type="image/webp" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<noscript><style>#loader{display:none}</style><p style="padding:24px;color:#dde2e6;font-family:sans-serif">This site needs JavaScript to play the film. DM @designed_toexist on Instagram for details.</p></noscript>
+
+<button class="snd" id="snd" type="button" aria-pressed="false" aria-label="Toggle background music"><span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="lbl">Sound off</span></button>
+
+<div id="loader" role="status" aria-live="polite">
+  <div class="bar"><i id="lbar"></i></div>
+  <p id="lpct">LOADING 0%</p>
+  <div class="enter" id="enter" hidden>
+    <button class="btn" id="enSound" type="button">Enter with sound</button>
+    <button class="btn ghost" id="enSilent" type="button">Enter without sound</button>
+  </div>
+</div>
+
+<main>
+<section id="track" aria-label="Scroll to play the film">
+  <div id="stage">
+    <canvas id="cv" role="img" aria-label="A black race car with red details driving through a rain-soaked tunnel"></canvas>
+
+    <div class="top">
+      <span class="mark">designed_toexist<b>.</b></span>
+      <span class="tc" id="tc">00:00.0</span>
+    </div>
+
+    <div class="beat on" data-from="0" data-to=".16">
+      <h1>Designed<br>to exist.</h1>
+      <p>I'm a freelance designer. I build websites and portfolios that give your work a place to live.</p>
+    </div>
+
+    <div class="beat r" data-from=".2" data-to=".4">
+      <h2>Your work<br>needs a home.</h2>
+      <p>A portfolio is not a folder of files. It's the first room someone walks into, so it should feel like yours.</p>
+    </div>
+
+    <div class="beat" data-from=".44" data-to=".66">
+      <h2>Built with<br><span class="red">intent.</span></h2>
+      <p>Every layout, every line of type and every movement is there for a reason. Nothing fills space just to fill it.</p>
+    </div>
+
+    <div class="beat r" data-from=".72" data-to=".93">
+      <h2>Made to be<br>remembered.</h2>
+      <p>People forget most of what they scroll past. I design the part they keep.</p>
+    </div>
+
+    <div id="veil" aria-hidden="true"></div>
+    <span class="cue" id="cue">SCROLL</span>
+    <div class="rail" aria-hidden="true"><i id="rail"></i></div>
+  </div>
+</section>
+
+<section class="outro">
+  <div class="outro-bg" aria-hidden="true"><div class="pic"></div><div class="glow"></div><div class="rain"></div><div class="grain"></div></div>
+  <h2 class="rv">Let's make<br>yours exist.</h2>
+  <p class="rv">Freelance website and portfolio design. Tell me what you do and who it's for, then DM me on Instagram for details.</p>
+  <div class="actions rv">
+    <a class="btn" href="https://www.instagram.com/designed_toexist/" target="_blank" rel="noopener">DM for details</a>
+    <button class="btn ghost" id="again" type="button">Watch again</button>
+  </div>
+
+  <p class="services-line rv">Portfolio websites, personal brand sites, landing pages and redesigns.</p>
+  <ol class="steps-row rv">
+    <li><b>1</b>Send a DM</li>
+    <li><b>2</b>We shape the idea</li>
+    <li><b>3</b>I design it</li>
+  </ol>
+
+  <div class="wordmark rv" aria-hidden="true">designed_toexist</div>
+</section>
+</main>
+<footer>Freelance website and portfolio design. Instagram: <a href="https://www.instagram.com/designed_toexist/" target="_blank" rel="noopener" style="color:inherit">@designed_toexist</a></footer>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>
